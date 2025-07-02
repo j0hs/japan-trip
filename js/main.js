@@ -40,21 +40,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 카드 슬라이더 (가운데 정렬 & 자동)
   const cardSwiper = new Swiper('.card-slider', {
-    loop: true,
-    slidesPerView: 'auto',
-    centeredSlides: true,
-    spaceBetween: 20,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 1,
-        centeredSlides: false
-      }
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 20,
+  centeredSlides: false,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 1,
+      centeredSlides: true
     }
-  });
+  }
+});
+
 
   // 스크롤 내려가면 헤더 스타일 변경
   header.classList.add('main-visual-nav');
