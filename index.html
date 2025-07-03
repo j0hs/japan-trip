@@ -7,7 +7,9 @@
   <title>Japan Travel - Tokyo Chapter</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="css/main.css" />
+  
 </head>
 
 <body>
@@ -48,55 +50,81 @@
             <h2>Hyped as fuck for this trip</h2>
             <p>Gonna do whatever the hell I want when I get there.</p>
           </div>
-          <div class="bg" style="background-image: url('images/img.jpg');"></div>
+          <div class="bg" style="background-image: url('/images/visual_01.jpg');"></div>
         </div>
         <div class="swiper-slide">
           <div class="text_box">
             <h2>About to go on an epic food binge</h2>
             <p>Ordering whatever I want and coming back chubbier, no regrets.</p>
           </div>
-          <div class="bg" style="background-image: url('images/img.jpg');"></div>
+          <div class="bg" style="background-image: url('/images/visual_02.jpg');"></div>
         </div>
         <div class="swiper-slide">
           <div class="text_box">
             <h2>Love ya</h2>
             <p>A trip where we’re just gonna hook up like crazy.</p>
           </div>
-          <div class="bg" style="background-image: url('images/img.jpg');"></div>
+          <div class="bg" style="background-image: url('/images/visual_03.jpg');"></div>
         </div>
       </div>
       <div class="swiper-pagination"></div>
     </section>
 
-    <section class="highlight01">
+    <section class="highlight01"> <!--디데이 넣으면 ㄱㅊ을듯?-->
       <div class="hl01_wrap">
-        <img src="images/img.jpg" alt="" class="pc_img">
-        <img src="images/img.jpg" alt="" class="mob_img">
+        <img src="images/hl_01.jpg" alt="" class="pc_img">
+        <img src="images/hl_02.jpg" alt="" class="mob_img">
         <div class="txt_box">
           <h1>BUILT THIS SITE <br> JUST FOR US</h1>
-          <a href="">Learn more</a>
+          <a href="#" class="btn">Learn more</a>
         </div>
       </div>
     </section>
 
-<section class="highlight02">
-  <h3 class="title">WHERE TO GO</h3>
-  <p class="sub_title">It’s divided into places that are great to visit at night and during the day.</p>
-  <div class="card-slider swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide card"><img src="images/img.jpg" alt=""><div class="txt_box">스카이트리</div></div>
-      <div class="swiper-slide card"><img src="images/img.jpg" alt=""><div class="txt_box">오다이바</div></div>
-      <div class="swiper-slide card"><img src="images/img.jpg" alt=""><div class="txt_box">시부야 스크램블</div></div>
-      <div class="swiper-slide card"><img src="images/img.jpg" alt=""><div class="txt_box">다이버시티</div></div>
-      <div class="swiper-slide card"><img src="images/img.jpg" alt=""><div class="txt_box">디즈니랜드</div></div>
-    </div>
-  </div>
-</section>
+    <section class="highlight02">
+      <h1 class="title">WHERE TO GO</h1>
+      <p class="sub_title">It’s divided into places that are great to visit at night and during the day.</p>
+      <ul class="card_list">
+        <li><a href="#"><img src="images/hl_03.jpg" alt="Skytree"><span>Skytree</span></a></li>
+        <li><a href="#"><img src="images/hl_04.jpg" alt="Odaiba"><span>Odaiba</span></a></li>
+        <li><a href="#"><img src="images/hl_05.jpg" alt="Scramble Crossing"><span>Scramble Crossing</span></a></li>
+        <li><a href="#"><img src="images/hl_06.jpg" alt="DiverCity"><span>DiverCity</span></a></li>
+        <li><a href="#"><img src="images/hl_07.jpg" alt="Disneyland"><span>Disneyland</span></a></li>
+        <li><a href="#"><img src="images/hl_08.jpg" alt="Gyoen"><span>Gyoen</span></a></li>
+
+      </ul>
+    </section>
+
 
 
 
     <section class="highlight03">
-      <h3>시즌별 축제</h3>
+      <h1 class="title">Countdown to Tokyo</h1>
+      <p class="sub_title">Counting down to the day we go to Tokyo</p>
+
+      <div class="countdown">
+        <div class="time-box">
+          <span class="number" id="days">0</span>
+          <span class="label">DAYS</span>
+        </div>
+        <div class="time-box">
+          <span class="number" id="hours">0</span>
+          <span class="label">HOURS</span>
+        </div>
+        <div class="time-box">
+          <span class="number" id="minutes">0</span>
+          <span class="label">MINUTES</span>
+        </div>
+        <div class="time-box">
+          <span class="number" id="seconds">0</span>
+          <span class="label">SECONDS</span>
+        </div>
+      </div>
+      <div class="contact">
+        <p>Can’t wait? Get in touch with JO </p>
+        <a href="" target="_blank" title="새 창" class="btn">Contact <i class="fa-solid fa-chevron-right"></i></a>
+        
+      </div>
     </section>
   </main>
 
@@ -107,4 +135,5 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
