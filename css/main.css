@@ -86,7 +86,7 @@ header.fixed .main-nav .has-submenu ul li:hover a::before { transform: scaleX(1)
 .highlight02 .card_list li:hover a::after { opacity: 1; } 
 /*.highlight03*/
 .highlight03 { padding: 95px 120px; height: 1000px; position: relative; } 
- .highlight03::before { content: ''; position: absolute; background-image: url(images/hl_09.png); width: 887px; height: 918px; background-repeat: no-repeat; right: 50px; } 
+ .highlight03::before { content: ''; position: absolute; background-image: url(/images/hl_09.png); width: 887px; height: 918px; background-repeat: no-repeat; right: 50px; } 
  .highlight03 .countdown { display: flex; gap: 20px; position: absolute; top: 280px; } 
  .highlight03 .countdown .time-box { background: #ffffff; padding: 28px 30px 20px 35px; text-align: left; border-radius: 1.5rem; width: 190px; height: 150px; box-shadow: 3px 7px 15px 0px rgb(0 0 0 / 16%); } 
  .highlight03 .countdown .time-box .number { font-size: 53px; font-weight: 800; display: block; color: #5e2bb8; } 
